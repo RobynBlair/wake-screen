@@ -8,3 +8,6 @@ Short little C# console app to keep the screen awake.
 * Make a shortcut to the .exe file and put it on your desktop or some other location that is easy to access.
 * As long as it is running, it will keep your screen saver away and other things active.
 * I made this with help from ChatGPT so it's not a huge secret. You can modify it to behave however you want fairly easily.
+
+* To make it a standalone app, execute the following on a terminal or command prompt:
+* > dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
